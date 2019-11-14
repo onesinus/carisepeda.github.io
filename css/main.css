@@ -16,6 +16,17 @@
 	float: right;
 }
 
+#login-button {
+	background-color: dodgerblue;
+	color: white;
+}
+
+#login-button:hover {
+	background-color: inherit;
+	color: black;
+	border: 1px solid black;
+}
+
 header {
 
 	text-align: center;
