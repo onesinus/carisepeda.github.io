@@ -57,6 +57,14 @@ footer {
     opacity: 0.5;
 }
 
+/* #pay {
+    position: fixed;
+    bottom: 3%;
+    left: 45%;
+    width: 10%;
+    opacity: 0.5;
+} */
+
 #scroll-top:hover {
     opacity: 1;
 }
