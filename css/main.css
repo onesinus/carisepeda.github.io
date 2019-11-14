@@ -5,6 +5,10 @@
 	/* overflow: hidden; */
 }
 
+#navbar {
+	display: inline;
+	float: right;
+}
 
 #logo {
 	height: 30%;
