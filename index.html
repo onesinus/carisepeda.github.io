@@ -111,7 +111,7 @@
         </tr>
 
         <section id="sepeda">
-            <h2 style="padding-top: 10px">Polygon</h2>
+            <h2 style="padding-top: 10px; text-align: center;">Polygon</h2>
         </section>
 
         <table>
@@ -124,7 +124,7 @@
                         <div class="desc">
                             <a target="_blank" href="">Polygon Rayz 3</a><br>
                             Rp. 3.000.000 <br>
-                            <button class="button button2">Tambah Ke Troli</button>
+                            <a href="order_list.html"><button class="button button2">Tambah Ke Troli</button></a>
                         </div>
                     </div>
                 </td>
@@ -194,7 +194,7 @@
         </table>
 
         <section>
-            <h2>Police</h2>
+            <h2 style="text-align: center;">Police</h2>
         </section>
 
         <table border="0">
@@ -275,10 +275,10 @@
         </table>
 
         <section>
-            <h1> Custom Sepeda </h1>
             <form id="form">
                 <div class="card">
                     <div class="container">
+                        <h3>Form Request Custom Sepeda</h3>
                         <form action="/action_page.php">
                             <div class="row">
                                 <div class="col-25">
@@ -301,7 +301,7 @@
                                 <div class="col-25">
                                     <label>Wheel Size</label>
                                 </div>
-                                <div class="col-75">
+                                <div class="col-25">
                                     <select id="wheel_size" name="wheel_size">
                                         <option selected> Wheel Size</option>
                                         <option value="">10"</option>
@@ -311,6 +311,10 @@
                                         <option value="">17"</option>
                                         <option value="">19"</option>
                                     </select>
+                                </div>
+                                <div class="col-25">
+                                    <label>Harga</label>
+                                    <input type="text" id="harga" name="lastname" placeholder="Harga" size="10">
                                 </div>
                             </div>
 
@@ -346,16 +350,17 @@
                             </div>
                             <div class="row">
                                 <div class="col-25">
-                                    <label for="subject">Keterangan</label>
+                                    <label for="subject">Keterangan Tambahan</label>
                                 </div>
                                 <div class="col-75">
-                                    <textarea id="subject" name="subject" placeholder="Keterangan"
+                                    <textarea id="subject" name="subject" placeholder="Keterangan Tambahan....."
                                         style="height:200px"></textarea>
                                 </div>
                             </div>
                             <div class="row">
+                                <input type="reset" value="Reset">
+                                &nbsp; &nbsp;
                                 <input type="submit" value="Submit">
-
                             </div>
                         </form>
                     </div>
