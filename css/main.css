@@ -57,6 +57,14 @@ footer {
     opacity: 0.5;
 }
 
+/* #pay {
+    position: fixed;
+    bottom: 3%;
+    left: 45%;
+    width: 10%;
+    opacity: 0.5;
+} */
+
 #scroll-top:hover {
     opacity: 1;
 }
@@ -72,7 +80,6 @@ p {
     text-align: justify;
 }
 
-<<<<<<< HEAD
 /* Tambahan Aditya */
 .button {
     background-color: #008CBA;
@@ -111,7 +118,7 @@ a:active {
 
 table th {
     width: 135;
-=======
+}
 
 #sepeda form {
 	position: relative;
@@ -226,5 +233,4 @@ table th {
 
 .mt-2{
 	margin-top: 2%;
->>>>>>> 74d024f43d7a486ae95b7afbaaa95cba2efc34e4
 }
