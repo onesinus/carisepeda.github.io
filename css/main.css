@@ -28,13 +28,21 @@
 }
 
 header {
-
 	text-align: center;
 }
 
-header a:hover {
-	background-color: steelblue;
+#nav-link, #login-button {
+	margin: 10px;
 }
+
+#nav-link:hover {
+	background-color: dodgerblue;
+	color: white;
+}
+
+/* header a:hover {
+	background-color: steelblue;
+} */
 
 footer {
 	background-color: dimgrey;
