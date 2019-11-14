@@ -20,7 +20,8 @@ table th{
 
 
 table td{
-    padding: 5px;    
+    padding: 5px;  
+    color: black;  
 }
 
 .right{
