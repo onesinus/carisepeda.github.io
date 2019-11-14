@@ -152,10 +152,17 @@ a:active {
 }
 
 .card {
-	background-color: lightgray;
-	;
-	padding: 20px;
 	margin-top: 20px;
+	height: 100%;
+}
+
+.background-img {
+	position: absolute;
+	z-index: -1;
+	background-size: cover;
+	width: 100%;
+	height: 235px;
+	opacity: 0.4;
 }
 
 .button {
@@ -377,3 +384,5 @@ ul.alt li:last-child {
 ul li {
 	padding-left: 0.325rem;
 	list-style: none;}
+	
+/*tambah background filter*/
