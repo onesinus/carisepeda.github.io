@@ -153,9 +153,7 @@ a:active {
 
 .card {
 	background-color: lightgray;
-	;
 	padding: 20px;
-	margin-top: 20px;
 }
 
 .button {
@@ -377,3 +375,8 @@ ul.alt li:last-child {
 ul li {
 	padding-left: 0.325rem;
 	list-style: none;}
+
+
+#form {
+	padding-top: 10px;
+}
