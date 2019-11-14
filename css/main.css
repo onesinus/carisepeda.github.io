@@ -55,6 +55,14 @@ footer {
 	opacity: 0.5;
 }
 
+/* #pay {
+    position: fixed;
+    bottom: 3%;
+    left: 45%;
+    width: 10%;
+    opacity: 0.5;
+} */
+
 #scroll-top:hover {
 	opacity: 1;
 }
@@ -156,6 +164,17 @@ a:active {
 	padding: 20px;
 }
 
+table th {
+    width: 135;
+}
+
+#sepeda form {
+	position: relative;
+	height: 150px;
+	width: 100%;
+	background-color: gray;
+	min-width: 1000px;
+}
 .button {
 	background-color: #008CBA;
 	border: none;
@@ -317,7 +336,7 @@ body {
 	opacity: 0.6;
 	position: absolute;
 	top: 0;
-	webkit-linear-gradientidth: 100%;
+	/* webkit-linear-gradientidth: 100%; */
 	width: 100%;
 	z-index: 1; }
 
@@ -372,6 +391,9 @@ ul.alt li:first-child {
 ul.alt li:last-child {
 	padding-bottom: 0; }
 
+.mt-2{
+	margin-top: 2%;
+}
 ul li {
 	padding-left: 0.325rem;
 	list-style: none;}
