@@ -1,0 +1,22 @@
+
+label{
+    font-size: 16pt;
+    /* color: blanchedalmond; */
+}
+
+textarea{
+    width: 100%;
+}
+
+#logo{
+    height: 20%;
+}
+
+img#logo-bca{
+    width: 50%;
+    height: 25%;    
+}
+
+section{
+    margin: auto 10px;
+}
