@@ -5,6 +5,10 @@
 	/* overflow: hidden; */
 }
 
+#navbar {
+	display: inline;
+	float: right;
+}
 
 #logo {
 	height: 30%;
@@ -16,27 +20,38 @@
 	float: right;
 }
 
-header {
-
-	text-align: center;
-}
-
-header a:hover {
-	background-color: steelblue;
-}
-
-footer {
-	background-color: dimgrey;
-	border: 3px solid #bdc3c7;
-	padding: 1% 0;
-	border-radius: 10px;
+#login-button {
+	background-color: dodgerblue;
 	color: white;
+}
+
+#login-button:hover {
+	background-color: inherit;
+	color: black;
+	border: 1px solid black;
+}
+
+header {
 	text-align: center;
 }
+
+#nav-link,
+#login-button {
+	margin: 10px;
+}
+
+#nav-link:hover {
+	background-color: dodgerblue;
+	color: white;
+}
+
+/* header a:hover {
+	background-color: steelblue;
+} */
 
 #scroll-keranjang {
 	position: fixed;
-	top: 8px;
+	top: 45%;
 	right: 5px;
 	width: 6%;
 	opacity: 0.5;
@@ -54,6 +69,14 @@ footer {
 	width: 3%;
 	opacity: 0.5;
 }
+
+/* #pay {
+    position: fixed;
+    bottom: 3%;
+    left: 45%;
+    width: 10%;
+    opacity: 0.5;
+} */
 
 #scroll-top:hover {
 	opacity: 1;
@@ -111,8 +134,8 @@ footer {
 }
 
 main {
-	 height: 58%;
-	 overflow: auto;
+	height: 58%;
+	overflow: auto;
 }
 
 p {
@@ -165,6 +188,18 @@ a:active {
 	opacity: 0.4;
 }
 
+table th {
+	width: 135;
+}
+
+#sepeda form {
+	position: relative;
+	height: 150px;
+	width: 100%;
+	background-color: gray;
+	min-width: 1000px;
+}
+
 .button {
 	background-color: #008CBA;
 	border: none;
@@ -204,7 +239,9 @@ a:active {
 	left: 10px;
 }
 
-* {box-sizing: border-box;}
+* {
+	box-sizing: border-box;
+}
 
 body {
 	margin: 0;
@@ -238,10 +275,10 @@ body {
 	width: 50px;
 }
 
-.header a:hover {
+/* .header a:hover {
 	background-color: #ddd;
 	color: black;
-}
+} */
 
 .header a.active {
 	background-color: dodgerblue;
@@ -252,12 +289,12 @@ body {
 	float: right;
 }
 
-.header-right a:active{
+.header-right a:active {
 	background-color: dodgerblue;
 	color: white;
 }
 
-.header-right a:hover{
+.header-right a:hover {
 	background-color: dodgerblue;
 	color: white;
 }
@@ -292,14 +329,17 @@ body {
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	width: 100%; }
+	width: 100%;
+}
 
-#banner > .inner {
-	z-index: 3; }
+#banner>.inner {
+	z-index: 3;
+}
 
 #banner h1 {
 	font-size: 3rem;
-	margin-bottom: 1rem; }
+	margin-bottom: 1rem;
+}
 
 #banner p {
 	font-size: 1.5rem;
@@ -315,7 +355,8 @@ body {
 	overflow: hidden;
 	position: absolute;
 	right: 50%;
-	width: auto; }
+	width: auto;
+}
 
 #banner:after {
 	background: linear-gradient(135deg, #5443ce 0%, #111111 74%);
@@ -326,63 +367,250 @@ body {
 	opacity: 0.6;
 	position: absolute;
 	top: 0;
-	webkit-linear-gradientidth: 100%;
+	/* webkit-linear-gradientidth: 100%; */
 	width: 100%;
-	z-index: 1; }
+	z-index: 1;
+}
 
 .wrapper {
-	padding: 8rem 0 6rem 0 ;
+	padding: 8rem 0 6rem 0;
 	position: relative;
-	z-index: 1; }
+	z-index: 1;
+}
+
+/* Footer Styling */
+
+footer {
+	background-color: lightgray;
+	width: 100%;
+	height: 70px;
+}
+
+#copyright {
+	text-decoration: none;
+	color: black;
+	float: left;
+	line-height: 70px;
+	padding-left: 5%;
+}
+
+.footer-nav {
+	display: inline;
+	float: right;
+	padding-right: 5%;
+}
+
+.footer-nav a {
+	text-decoration: none;
+	line-height: 70px;
+	color: black;
+}
 
 #footer {
 	background-color: #111111;
 	color: rgba(255, 255, 255, 0.5);
-	padding: 8rem 0 6rem 0 ; }
+	padding: 8rem 0 6rem 0;
+}
 
 #footer a {
-	color: #ce1b28; }
-#footer strong, #footer b {
-	color: #ffffff; }
+	color: #ce1b28;
+}
+
+#footer strong,
+#footer b {
+	color: #ffffff;
+}
 
 #footer a {
 	color: rgba(255, 255, 255, 0.5);
-	text-decoration: none; }
+	text-decoration: none;
+}
 
 #footer .content {
 	display: flex;
 }
+
 #footer .content section {
-	width: 25%; }
+	width: 25%;
+}
+
 #footer .content section:first-child {
 	width: 50%;
-	padding-right: 4rem; }
+	padding-right: 4rem;
+}
+
 #footer .content section:last-child {
-	padding-left: 4rem; }
+	padding-left: 4rem;
+}
 
 
 .inner {
 	margin: 0 auto;
 	width: 75rem;
-	max-width: calc(100% - 6rem); }
+	max-width: calc(100% - 6rem);
+}
 
 
 ul.alt {
 	list-style: none;
-	padding-left: 0; }
+	padding-left: 0;
+}
+
 ul.alt li {
 	border-top: solid 1px;
-	padding: 0.75rem 0; }
+	padding: 0.75rem 0;
+}
 
 ul.alt li:first-child {
 	border-top: 0;
-	padding-top: 0; }
+	padding-top: 0;
+}
 
 ul.alt li:last-child {
-	padding-bottom: 0; }
+	padding-bottom: 0;
+}
+
+.mt-2 {
+	margin-top: 2%;
+}
 
 ul li {
 	padding-left: 0.325rem;
-	list-style: none;}
-	
-/*tambah background filter*/
+	list-style: none;
+}
+
+
+#form {
+	padding-top: 10px;
+}
+
+#container {
+	width: auto;
+	overflow: hidden;
+}
+
+/*header*/
+header {
+	width: 800px;
+	margin: 40px auto;
+}
+
+header h1 {
+	text-align: center;
+	font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+
+}
+
+header p {
+	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+	text-align: justify;
+}
+
+
+.photobanner {
+	height: 20px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 30s linear infinite;
+	-moz-animation: bannermove 30s linear infinite;
+	-ms-animation: bannermove 30s linear infinite;
+	-o-animation: bannermove 30s linear infinite;
+	animation: bannermove 30s linear infinite;
+}
+
+@keyframes bannermove {
+	0% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: -2125px;
+	}
+
+}
+
+@-moz-keyframes bannermove {
+	0% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: -2125px;
+	}
+
+}
+
+@-webkit-keyframes bannermove {
+	0% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: -2125px;
+	}
+
+}
+
+@-ms-keyframes bannermove {
+	0% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: -2125px;
+	}
+
+}
+
+@-o-keyframes bannermove {
+	0% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: -2125px;
+	}
+
+}
+
+.photobanner img {
+	width: 300px;
+	height: 100px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.photobanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+
+	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 380px;
+	width: 500px;
+	margin: 15px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 380px;
+	width: 500px;
+}
