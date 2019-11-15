@@ -55,6 +55,7 @@ header {
 	right: 5px;
 	width: 6%;
 	opacity: 0.5;
+	z-index: 10;
 }
 
 #scroll-keranjang:hover {
